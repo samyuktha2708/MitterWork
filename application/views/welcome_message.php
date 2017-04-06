@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body onload="initialize()">
 <!--header-->
 	<div class="header-w3l">
-		<h1> Enter Address</h1>
+		<h1>Find Your Nearest Public Services</h1>
 	</div>
 <!--//header-->
 
@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<form action="index.php/welcome/view" method="post">
                     <div id="locationField">
 		
-                 <input id="autocomplete" required class="user" placeholder="Enter your address" style="width:300px;" name="address" onFocus="geolocate()" type="text"></input>
+                 <input id="autocomplete" required class="user" placeholder="Enter Zip Code or City or Street Name" style="width:400px;" name="address" onFocus="geolocate()" type="text"></input>
 		  
                 </div>
 

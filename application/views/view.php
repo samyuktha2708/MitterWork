@@ -28,13 +28,13 @@
     <div class="col-md-2">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="<?php echo site_url(); ?>">Home</a></li>
-  <li class="breadcrumb-item active">View</li>
+
 </ol>    
     </div>
     
 <!--header-->
 	<div class="header-w3l">
-		<h1> Nearest Public Services</h1>
+		<h1> List of Nearest Public Services</h1>
 	</div>
 <!--//header-->
 <?php// print_r($data); ?>
